@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   <center> <h1>PROBLEM SOLVING QUESTIONS</h1></center>
+    <pre>
+
+        //add two numbers--------------------------------------------------------1
+        var a=Number(prompt("ENTER a VAL"));
+        var b=Number (prompt("ENTER b VAL"));
+        function add(){
+            c=(a+b);
+            return c;
+        }
+        console.log(add());
+output:- 2
+         2
+         answer = 4
+
+
+ //minutes to seconds-----------------------------------------------------2
+        var min=prompt("ENTER MINUTES");
+        function minutes() {
+            sec= min*60;
+            return sec;
+        }
+        console.log(minutes()); console.log("seconds");
+output= 2
+        answer= 120 seconds
+
+
+//increment----------------------------------------------------------------3
+        var n=Number(prompt("GIVE A VALUE MAN!!!"));   
+        function numb(){
+            incr=n+1;
+            return incr;
+        }
+        console.log(numb());
+output=  2
+         answer=3
+
+converting AGE FROM YEARS TO DAYS--------------------------------------------4
+        var value=prompt("ENTER AGE");
+        function age() {
+            days=value *365;
+            return days;
+        }
+        console.log(age()); console.log("days");
+output= 22
+        answer=8030 days
+
+
+//power =voltage * current---------------------------------------------------5
+        var vol=Number(prompt("ENTER VOLTAGE VALUE"))
+        var cur=Number(prompt("ENTER CURRENT VALUE"))
+        function power() {
+            p= vol*cur;
+            return p;
+        }
+        console.log(power()); console.log("watts");
+output= 2
+        3
+        6 watts
+
+
+//string "something" joined with a space " " and the given argument a-----------6
+        var a=prompt("ENTER THE VALUE");
+        function arg() {
+            argument= "something"+"  "+a;
+            return argument;
+        }
+        console.log(arg());
+output=  is fishy
+        answer= something is fishy
+
+
+//Return true if one of them is 10 or if their sum is 10.----------------------7
+        var a=Number(prompt("enter value a"));
+        var b=Number(prompt("enter value b"));
+        function ret() {
+            c=(a+b);
+            if (a==10 || b==10) {
+               return true;
+            } else if (c==10){
+               return true;
+            }
+            else{
+                return c;
+            }
+        }
+        console.log(ret());
+output=  10                 5              1
+         5                  5              2
+         answer= true       answer=true    3
+
+
+// total number of characters in the first string is equal to the second string-----8
+        var a=prompt("ENTER FIRST STRING");
+        var b=prompt("ENTER SECOND STRING");
+        function str(){
+            if (a.length==b.length) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        console.log(str());
+output= hello                hello
+        seven                sir 
+        answer = true        answer=false
+
+
+//takes a name and returns a greeting in the form of a string---------------------------9
+        var a=prompt("ENTER NAME");
+        var greet=()=>{
+            print="GOOD MORNING! "+a+", "+"HAVE A NICE DAY";
+            return print;
+        }
+        console.log(greet());
+output= jayanth
+        answer = GOOD MORNING! jayanth, HAVE A NICE DAY 
+
+
+//array of 10 numbers (between 0 and 9) and returns a string like mobile no----------------10
+        var arr=[8,1,7,9,1,9,8,9,4,4];
+        function pri(a,b,c,d,e,f,g,h,i,j) {
+         p="("+ a+b+c+")"+d+e+f+"-"+g+h+i+j;
+         return p;
+         }
+         console.log(pri(arr[0],arr[1],arr[2],arr[3],arr[4],arr[5],arr[6],arr[7],arr[8],arr[9]));
+output= (817)919-8944         
+
+        //take one parameter and return type of the data.-------------------------------------------20
+        var a= true;  //-------> by changing this we can get the values
+        console.log(typeof(a));
+
+        //find greatest of three numbers(using ternery operator)-------------------------------------21
+
+        var a=Number(prompt("ENTER A"));
+        var b=Number(prompt("ENTER B"));
+        var c=Number(prompt("ENTER C"));
+        a>b && a>c?console.log(a+" "+ "is big"):b>a && b>c?console.log(b+" "+"is big"):console.log(c+" "+"is big");
+   
+        // Check Whether a Number is Prime or Not----------------------------------------------------26
+        var a=Number(prompt("ENTER VALUE"));
+        count=0;
+        for(var b=1;b<=a;b++){
+            if (a%b==0) {
+                count++;
+            } }
+         if(count==2){
+                console.log("prime");
+            }
+            else{
+                console.log("not a prime");
+            }
+
+
+
+            // Display Characters from A to Z Using Loop with count.----------------------------------28
+            var x="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            var c=1;
+           for(var bb in x ){
+            console.log(x[bb]+ " "+  c++);
+           }
+       
+      
+                
+           // program to insert  the elements of an array for specific index.--------------------------31
+             var a=[1,2,3,4,5,6,7,8,9,"hi","hello"];
+            a[9]=10;
+           a[10]="hi";
+           console.log(a);
+
+
+    </pre>
+    <script>
+        //  //add two numbers--------------------------------------------------------1
+        // var a=Number(prompt("ENTER a VAL"));
+        // var b=Number (prompt("ENTER b VAL"));
+        // function add(){
+        //     c=(a+b);
+        //     return c;
+        // }
+        // console.log(add());
+
+
+
+        // //minutes to seconds-----------------------------------------------------2
+        // var min=prompt("ENTER MINUTES");
+        // function minutes() {
+        //     sec= min*60;
+        //     return sec;
+        // }
+        // console.log(minutes()); console.log("seconds");
+
+        // //increment----------------------------------------------------------------3
+        // var n=Number(prompt("GIVE A VALUE MAN!!!"));   
+        // function numb(){
+        //     incr=n+1;
+        //     return incr;
+        // }
+        // console.log(numb());
+        
+
+        // converting AGE FROM YEARS TO DAYS--------------------------------------------4
+        // var value=prompt("ENTER AGE");
+        // function age() {
+        //     days=value *365;
+        //     return days;
+        // }
+        // console.log(age()); console.log("days");
+
+        // //power =voltage * current---------------------------------------------------5
+        // var vol=Number(prompt("ENTER VOLTAGE VALUE"))
+        // var cur=Number(prompt("ENTER CURRENT VALUE"))
+        // function power() {
+        //     p= vol*cur;
+        //     return p;
+        // }
+        // console.log(power()); console.log("watts");
+
+        // //string "something" joined with a space " " and the given argument a-----------6
+        // var a=prompt("ENTER THE VALUE");
+        // function arg() {
+        //     argument= "something"+"  "+a;
+        //     return argument;
+        // }
+        // console.log(arg());
+
+
+        // //Return true if one of them is 10 or if their sum is 10.----------------------7
+        // var a=Number(prompt("enter value a"));
+        // var b=Number(prompt("enter value b"));
+        // function ret() {
+        //     c=(a+b);
+        //     if (a==10 || b==10) {
+        //        return true;
+        //     } else if (c==10){
+        //        return true;
+        //     }
+        //     else{
+        //         return c;
+        //     }
+        // }
+        // console.log(ret());
+
+        // // total number of characters in the first string is equal to the second string-----8
+        // var a=prompt("ENTER FIRST STRING");
+        // var b=prompt("ENTER SECOND STRING");
+        // function str(){
+        //     if (a.length==b.length) {
+        //         return true;
+        //     } else {
+        //         return false;
+        //     }
+        // }
+        // console.log(str());
+
+
+        // //takes a name and returns a greeting in the form of a string---------------------------9
+        // var a=prompt("ENTER NAME");
+        // var greet=()=>{
+        //     print="GOOD MORNING! "+a+", "+"HAVE A NICE DAY";
+        //     return print;
+        // }
+        // console.log(greet());
+
+        // //array of 10 numbers (between 0 and 9) and returns a string like mobile no----------------10
+        // var arr=[8,1,7,9,1,9,8,9,4,4];
+        // function pri(a,b,c,d,e,f,g,h,i,j) {
+        //  p="("+ a+b+c+")"+d+e+f+"-"+g+h+i+j;
+        //  return p;
+        //  }
+        //  console.log(pri(arr[0],arr[1],arr[2],arr[3],arr[4],arr[5],arr[6],arr[7],arr[8],arr[9]));
+         
+        // //take one parameter and return type of the data.-------------------------------------------20
+        // var a= true;  //-------> by changing this we can get the values
+        // console.log(typeof(a));
+
+        // //find greatest of three numbers(using ternery operator)-------------------------------------21
+
+        // var a=Number(prompt("ENTER A"));
+        // var b=Number(prompt("ENTER B"));
+        // var c=Number(prompt("ENTER C"));
+        // a>b && a>c?console.log(a+" "+ "is big"):b>a && b>c?console.log(b+" "+"is big"):console.log(c+" "+"is big");
+   
+        // // Check Whether a Number is Prime or Not----------------------------------------------------26
+        // var a=Number(prompt("ENTER VALUE"));
+        // count=0;
+        // for(var b=1;b<=a;b++){
+        //     if (a%b==0) {
+        //         count++;
+        //     } }
+        //  if(count==2){
+        //         console.log("prime");
+        //     }
+        //     else{
+        //         console.log("not a prime");
+        //     }
+
+
+
+        //     // Display Characters from A to Z Using Loop with count.----------------------------------28
+        //     var x="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        //     var c=1;
+        //    for(var bb in x ){
+        //     console.log(x[bb]+ " "+  c++);
+        //    }
+       
+      
+                
+        //    // program to insert  the elements of an array for specific index.--------------------------31
+        //      var a=[1,2,3,4,5,6,7,8,9,"hi","hello"];
+        //     a[9]=10;
+        //    a[10]="hi";
+        //    console.log(a);
+
+
+
+
+       
+      
+
+    </script>
+</body>
+</html>
